@@ -86,8 +86,8 @@
 		<Item Name="Global 1.vi" Type="VI" URL="../../Common/Global/Global 1.vi"/>
 		<Item Name="convertADCstring.vi" Type="VI" URL="../subVIs/convertADCstring.vi"/>
 		<Item Name="SystemSet.ctl" Type="VI" URL="../controls/SystemSet.ctl"/>
-		<Item Name="storeADCMixedToArray-wang-test2.vi" Type="VI" URL="../../../../1er a faire2/V11/Store/storeADCMixedToArray-wang-test2.vi"/>
-		<Item Name="stringtoin18.vi" Type="VI" URL="../../../../03042018/1er a faire2/V11/Utils/stringtoin18.vi"/>
+		<Item Name="stringtoin18.vi" Type="VI" URL="../../../../../Desktop/1er a faire2/V11/Utils/stringtoin18.vi"/>
+		<Item Name="storeADCMixedToArray-wang-test2.vi" Type="VI" URL="../../../../../Desktop/storeADCMixedToArray-wang-test2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
@@ -438,6 +438,7 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+<<<<<<< HEAD
 			<Item Name="lsstCommand.vi" Type="VI" URL="../../common/Comm/lsstCommand.vi"/>
 			<Item Name="GlobComm.vi" Type="VI" URL="../../common/Comm/GlobComm.vi"/>
 			<Item Name="packetizer.vi" Type="VI" URL="../../common/Comm/packetizer.vi"/>
@@ -449,6 +450,27 @@
 			<Item Name="storeADCMixedToArray-wang-test2.vi" Type="VI" URL="../../../../ZengZhe/03042018/03042018/testproj2/testproj2/storeADCMixedToArray-wang-test2.vi"/>
 			<Item Name="stringtoin18.vi" Type="VI" URL="../../../../ZengZhe/03042018/03042018/1er a faire2/V11/Utils/stringtoin18.vi"/>
 			<Item Name="SignExtensiontab.vi" Type="VI" URL="../../../../ZengZhe/03042018/03042018/1er a faire2/V11/Utils/SignExtensiontab.vi"/>
+=======
+			<Item Name="lsstCommand.vi" Type="VI" URL="../../Common/Comm/lsstCommand.vi"/>
+			<Item Name="GlobComm.vi" Type="VI" URL="../../Common/Comm/GlobComm.vi"/>
+			<Item Name="packetizer.vi" Type="VI" URL="../../common/Comm/packetizer.vi"/>
+			<Item Name="inverter.vi" Type="VI" URL="../../common/Store/inverter.vi"/>
+			<Item Name="UDPSend.vi" Type="VI" URL="../../Common/Comm/UDPSend.vi"/>
+			<Item Name="programComm.vi" Type="VI" URL="../../Common/Comm/programComm.vi"/>
+			<Item Name="progAspicSequence3.vi" Type="VI" URL="../../common/Comm/progAspicSequence3.vi"/>
+			<Item Name="errorUDP.vi" Type="VI" URL="../../Common/Comm/errorUDP.vi"/>
+			<Item Name="storeADCMixedToArray-wang-test2.vi" Type="VI" URL="../../../../03042018/1er a faire2/V11/Store/storeADCMixedToArray-wang-test2.vi"/>
+			<Item Name="State.ctl" Type="VI" URL="../../../romtests/testproj/controls/State.ctl"/>
+			<Item Name="SetASPIC.vi" Type="VI" URL="../../../romtests/testproj/subVIs/SetASPIC.vi"/>
+			<Item Name="lsstCommand.vi" Type="VI" URL="../../../romtests/Common/Comm/lsstCommand.vi"/>
+			<Item Name="GlobComm.vi" Type="VI" URL="../../../romtests/Common/Comm/GlobComm.vi"/>
+			<Item Name="UDPSend.vi" Type="VI" URL="../../../romtests/Common/Comm/UDPSend.vi"/>
+			<Item Name="programComm.vi" Type="VI" URL="../../../romtests/Common/Comm/programComm.vi"/>
+			<Item Name="Acquire Data from Hardware.vi" Type="VI" URL="../../../romtests/testproj/subVIs/Acquire Data from Hardware.vi"/>
+			<Item Name="errorUDP.vi" Type="VI" URL="../../../romtests/Common/Comm/errorUDP.vi"/>
+			<Item Name="Incorporate New Data.vi" Type="VI" URL="../../../romtests/testproj/subVIs/Incorporate New Data.vi"/>
+			<Item Name="SignExtensiontab.vi" Type="VI" URL="../../../../../Desktop/1er a faire2/V11/Utils/SignExtensiontab.vi"/>
+>>>>>>> 2f889f6a7b20a317c318cd985c4c1bb04354a9f9
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Finite Measurement Application" Type="EXE">
