@@ -38,6 +38,7 @@
 			<Item Name="HW Configuration.ctl" Type="VI" URL="../controls/HW Configuration.ctl"/>
 			<Item Name="Network.ctl" Type="VI" URL="../controls/Network.ctl"/>
 			<Item Name="New Data Behavior.ctl" Type="VI" URL="../controls/New Data Behavior.ctl"/>
+			<Item Name="path.ctl" Type="VI" URL="../../common/Comm/path.ctl"/>
 			<Item Name="ping.ctl" Type="VI" URL="../documentation/ping.ctl"/>
 			<Item Name="SetTimesliceDialog.vi" Type="VI" URL="../subVIs/SetTimesliceDialog.vi"/>
 			<Item Name="Simulated Signal Type.ctl" Type="VI" URL="../controls/Simulated Signal Type.ctl"/>
@@ -79,15 +80,17 @@
 		<Item Name="CommSelect.ctl" Type="VI" URL="../controls/CommSelect.ctl"/>
 		<Item Name="SetTS.vi" Type="VI" URL="../controls/SetTS.vi"/>
 		<Item Name="p_programTSLAspic2.vi" Type="VI" URL="../subVIs/p_programTSLAspic2.vi"/>
-		<Item Name="GRCtoASPICreg.vi" Type="VI" URL="../../Common/Comm/GRCtoASPICreg.vi"/>
-		<Item Name="progAspicSequence2.vi" Type="VI" URL="../../Common/Comm/progAspicSequence2.vi"/>
+		<Item Name="GRCtoASPICreg.vi" Type="VI" URL="../../common/Comm/GRCtoASPICreg.vi"/>
+		<Item Name="progAspicSequence2.vi" Type="VI" URL="../../common/Comm/progAspicSequence2.vi"/>
 		<Item Name="testo.vi" Type="VI" URL="../../test/testo.vi"/>
 		<Item Name="testo2.vi" Type="VI" URL="../../test/testo2.vi"/>
 		<Item Name="Global 1.vi" Type="VI" URL="../../Common/Global/Global 1.vi"/>
 		<Item Name="convertADCstring.vi" Type="VI" URL="../subVIs/convertADCstring.vi"/>
 		<Item Name="SystemSet.ctl" Type="VI" URL="../controls/SystemSet.ctl"/>
-		<Item Name="storeADCMixedToArray-wang-test2.vi" Type="VI" URL="../../../../1er a faire2/V11/Store/storeADCMixedToArray-wang-test2.vi"/>
-		<Item Name="stringtoin18.vi" Type="VI" URL="../../../../03042018/1er a faire2/V11/Utils/stringtoin18.vi"/>
+		<Item Name="stringtoin18.vi" Type="VI" URL="../../common/Utils/stringtoin18.vi"/>
+		<Item Name="storeADCMixedToArray-wang-test2.vi" Type="VI" URL="../../../../../Desktop/storeADCMixedToArray-wang-test2.vi"/>
+		<Item Name="test.vi" Type="VI" URL="../../../../../test.vi"/>
+		<Item Name="PathSettingDialog.vi" Type="VI" URL="../../common/Comm/PathSettingDialog.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
@@ -438,16 +441,16 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lsstCommand.vi" Type="VI" URL="../../Common/Comm/lsstCommand.vi"/>
-			<Item Name="GlobComm.vi" Type="VI" URL="../../Common/Comm/GlobComm.vi"/>
-			<Item Name="packetizer.vi" Type="VI" URL="../../Common/Comm/packetizer.vi"/>
-			<Item Name="inverter.vi" Type="VI" URL="../../Common/Store/inverter.vi"/>
-			<Item Name="UDPSend.vi" Type="VI" URL="../../Common/Comm/UDPSend.vi"/>
-			<Item Name="programComm.vi" Type="VI" URL="../../Common/Comm/programComm.vi"/>
-			<Item Name="progAspicSequence3.vi" Type="VI" URL="../../Common/Comm/progAspicSequence3.vi"/>
-			<Item Name="errorUDP.vi" Type="VI" URL="../../Common/Comm/errorUDP.vi"/>
-			<Item Name="SignExtensiontab.vi" Type="VI" URL="../../../../03042018/1er a faire2/V11/Utils/SignExtensiontab.vi"/>
-			<Item Name="storeADCMixedToArray-wang-test2.vi" Type="VI" URL="../../../../03042018/1er a faire2/V11/Store/storeADCMixedToArray-wang-test2.vi"/>
+			<Item Name="lsstCommand.vi" Type="VI" URL="../../common/Comm/lsstCommand.vi"/>
+			<Item Name="GlobComm.vi" Type="VI" URL="../../common/Comm/GlobComm.vi"/>
+			<Item Name="packetizer.vi" Type="VI" URL="../../common/Comm/packetizer.vi"/>
+			<Item Name="inverter.vi" Type="VI" URL="../../common/Store/inverter.vi"/>
+			<Item Name="UDPSend.vi" Type="VI" URL="../../common/Comm/UDPSend.vi"/>
+			<Item Name="programComm.vi" Type="VI" URL="../../common/Comm/programComm.vi"/>
+			<Item Name="progAspicSequence3.vi" Type="VI" URL="../../common/Comm/progAspicSequence3.vi"/>
+			<Item Name="errorUDP.vi" Type="VI" URL="../../common/Comm/errorUDP.vi"/>
+			<Item Name="SignExtensiontab.vi" Type="VI" URL="../../common/Utils/SignExtensiontab.vi"/>
+			<Item Name="storeADCMixedToArray-wang-test2simplifié.vi" Type="VI" URL="../../testfolder/storeADCMixedToArray-wang-test2simplifié.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Finite Measurement Application" Type="EXE">
