@@ -91,6 +91,12 @@
 		<Item Name="storeADCMixedToArray-wang-test2.vi" Type="VI" URL="../../../../../Desktop/storeADCMixedToArray-wang-test2.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../../../../../test.vi"/>
 		<Item Name="PathSettingDialog.vi" Type="VI" URL="../../common/Comm/PathSettingDialog.vi"/>
+		<Item Name="storeADCMixedToArray-wang-test2not simplified.vi" Type="VI" URL="../../testfolder/storeADCMixedToArray-wang-test2not simplified.vi"/>
+		<Item Name="Analysiswangtest.vi" Type="VI" URL="../../testfolder/Analysiswangtest.vi"/>
+		<Item Name="analysis.ctl" Type="VI" URL="../../common/Comm/analysis.ctl"/>
+		<Item Name="storeADCMixedToArray-wang-test2simplified2.vi" Type="VI" URL="../../../../../git test/readout-wangbranch/readout-wangbranch/testfolder/storeADCMixedToArray-wang-test2simplified2.vi"/>
+		<Item Name="storeADCMixedToArray-wang-test2simplified2.vi" Type="VI" URL="../../testfolder/storeADCMixedToArray-wang-test2simplified2.vi"/>
+		<Item Name="Data OK.ctl" Type="VI" URL="../controls/Data OK.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
@@ -437,6 +443,7 @@
 				<Item Name="TDMSAddBlankElem1d.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMSAddBlankElem1d.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -450,7 +457,11 @@
 			<Item Name="progAspicSequence3.vi" Type="VI" URL="../../common/Comm/progAspicSequence3.vi"/>
 			<Item Name="errorUDP.vi" Type="VI" URL="../../common/Comm/errorUDP.vi"/>
 			<Item Name="SignExtensiontab.vi" Type="VI" URL="../../common/Utils/SignExtensiontab.vi"/>
-			<Item Name="storeADCMixedToArray-wang-test2simplifié.vi" Type="VI" URL="../../testfolder/storeADCMixedToArray-wang-test2simplifié.vi"/>
+			<Item Name="statsNsplit2ADC.vi" Type="VI" URL="../subVIs/statsNsplit2ADC.vi"/>
+			<Item Name="Global ADCarray.vi" Type="VI" URL="../global/Global ADCarray.vi"/>
+			<Item Name="stringtoin18.vi" Type="VI" URL="../../../../../git test/readout-wangbranch/readout-wangbranch/common/Utils/stringtoin18.vi"/>
+			<Item Name="SignExtensiontab.vi" Type="VI" URL="../../../../../git test/readout-wangbranch/readout-wangbranch/common/Utils/SignExtensiontab.vi"/>
+			<Item Name="Graph Data.ctl" Type="VI" URL="../../../../../git test2/readout-wangbranch/readout-wangbranch/main/controls/Graph Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Finite Measurement Application" Type="EXE">
