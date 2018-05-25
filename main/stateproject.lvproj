@@ -66,7 +66,6 @@
 			<Item Name="Settings Dialog.vi" Type="VI" URL="../subVIs/Settings Dialog.vi"/>
 			<Item Name="Statistical Analysis.vi" Type="VI" URL="../subVIs/Statistical Analysis.vi"/>
 		</Item>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="AspicSettingsDialog.vi" Type="VI" URL="../subVIs/AspicSettingsDialog.vi"/>
 		<Item Name="CommGlobal.vi" Type="VI" URL="../subVIs/CommGlobal.vi"/>
 		<Item Name="Control 6.ctl" Type="VI" URL="../controls/Control 6.ctl"/>
@@ -97,6 +96,9 @@
 		<Item Name="storeADCMixedToArray-wang-test2simplified2.vi" Type="VI" URL="../../../../../git test/readout-wangbranch/readout-wangbranch/testfolder/storeADCMixedToArray-wang-test2simplified2.vi"/>
 		<Item Name="storeADCMixedToArray-wang-test2simplified2.vi" Type="VI" URL="../../testfolder/storeADCMixedToArray-wang-test2simplified2.vi"/>
 		<Item Name="Data OK.ctl" Type="VI" URL="../controls/Data OK.ctl"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Fitting OK.ctl" Type="VI" URL="../../common/Comm/Fitting OK.ctl"/>
+		<Item Name="FFT OK.ctl" Type="VI" URL="../controls/FFT OK.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
@@ -444,9 +446,10 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-			</Item>
-			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
 			<Item Name="lsstCommand.vi" Type="VI" URL="../../common/Comm/lsstCommand.vi"/>
 			<Item Name="GlobComm.vi" Type="VI" URL="../../common/Comm/GlobComm.vi"/>
@@ -457,11 +460,12 @@
 			<Item Name="progAspicSequence3.vi" Type="VI" URL="../../common/Comm/progAspicSequence3.vi"/>
 			<Item Name="errorUDP.vi" Type="VI" URL="../../common/Comm/errorUDP.vi"/>
 			<Item Name="SignExtensiontab.vi" Type="VI" URL="../../common/Utils/SignExtensiontab.vi"/>
-			<Item Name="statsNsplit2ADC.vi" Type="VI" URL="../subVIs/statsNsplit2ADC.vi"/>
 			<Item Name="Global ADCarray.vi" Type="VI" URL="../global/Global ADCarray.vi"/>
 			<Item Name="stringtoin18.vi" Type="VI" URL="../../../../../git test/readout-wangbranch/readout-wangbranch/common/Utils/stringtoin18.vi"/>
-			<Item Name="SignExtensiontab.vi" Type="VI" URL="../../../../../git test/readout-wangbranch/readout-wangbranch/common/Utils/SignExtensiontab.vi"/>
-			<Item Name="Graph Data.ctl" Type="VI" URL="../../../../../git test2/readout-wangbranch/readout-wangbranch/main/controls/Graph Data.ctl"/>
+			<Item Name="statsNsplit2ADC.vi" Type="VI" URL="../subVIs/statsNsplit2ADC.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="FFT_test.vi" Type="VI" URL="../../testfolder/FFT_test.vi"/>
+			<Item Name="Fitting test2.vi" Type="VI" URL="../../testfolder/Fitting test2.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Finite Measurement Application" Type="EXE">
@@ -488,7 +492,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{1BFB8654-0ED6-46DC-9DA8-CD744B16C1B9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
